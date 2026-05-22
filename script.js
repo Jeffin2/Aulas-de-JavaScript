@@ -15,3 +15,4 @@ document.querySelector('p').innerText = 'Texto atualizado pelo JavaScript!';
 
 //altera a cor do parágrafo para vermelho
 document.querySelector('p').style.color = 'red';
+
