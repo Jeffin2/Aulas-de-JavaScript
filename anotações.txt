@@ -7,3 +7,15 @@ Depois passou para o Firefox;
 2008 o GoogleCrome foi inventado e cresceu;
 Veio o V8, e depois foi modificado para o Node;
 Assistir vídeos, treinar ler manuais e referências, anotar, resolver problemas;
+
+O "Number.parseInt(variável)" transforma a strinng em number;
+O "Number.parsetFloat(variável)" transforma a string em number, com casas decimais;
+Usar o "Number(variáver)" se entende em formato de string, e não number;
+Para converter number para string usa: "String(variável)", ou "n.toString(variável)";
+
+var s = "JavaScript"
+"Eu estou estudando " + s   Forma uma concatenação
+`O aluno ${nome} com ${idade} anos, tirou a nota ${nota}` Usa o placehoder / template string
+
+s.lenght diz  quantos caracteres a string tem;
+s.toUpperCase()  

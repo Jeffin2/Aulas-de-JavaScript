@@ -1,8 +1,3 @@
-//variáveis
-nome = window.prompt("Qual é o seu nome?");
-
-
-
 
 //muda a cor do título para azul
 document.querySelector('h1.titulo').style.color = 'blue';
@@ -44,4 +39,8 @@ window.alert("Olá, seja bem-vindo ao curso de JavaScript!"); //exibe um alerta 
 window.confirm("Deseja continuar?"); //exibe uma caixa de confirmação
 window.prompt("Qual é o seu nome?"); //exibe uma caixa de entrada para o usuário
 
-document.getElementsByClassName('nome')[0].innerText = "Olá, " + nome + "!"; //altera o texto do elemento com a classe "nome" para o valor da variável nome
+var n1 = Number(window.prompt("Digite um número:")); //solicita ao usuário que digite um número em formato de string
+var n2 = Number(window.prompt("Digite outro número:")); //solicita ao usuário que digite outro número em formato de string
+var s = n1 + n2; //soma os dois números, convertendo as strings para number
+window.alert(`A soma entre ${n1} e ${n2} é: ${s}`); //exibe o resultado da soma em um alerta em formato de number
+
