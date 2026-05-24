@@ -18,4 +18,9 @@ var s = "JavaScript"
 `O aluno ${nome} com ${idade} anos, tirou a nota ${nota}` Usa o placehoder / template string
 
 s.lenght diz  quantos caracteres a string tem;
-s.toUpperCase()  
+s.toUpperCase()  deixa tudo com letras maiúsculas
+s.toLowerCase()  deixa tudo com letras minúsculas
+
+n1.toFixed(2) muda as casas decimais
+n1.toFixed(2).replace(".", ",") muda as casas decimais e muda de . para ,
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) transforma o valor em moeda
